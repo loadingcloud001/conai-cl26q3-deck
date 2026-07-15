@@ -1,6 +1,6 @@
 # conai-cl26q3-deck
 
-**Ref:** `CL26Q3` · **Version:** v1 · **Built:** 2026-Q3
+**Ref:** `CL26Q3` · **Version:** v2 · **Built:** 2026-Q3
 **Author:** Charles Lo
 **Site:** [cl26q3.loadingtechnology.app](https://cl26q3.loadingtechnology.app)
 
@@ -19,7 +19,7 @@ paradigms map to real construction-industry use cases.
 | Ref prefix    | `CL26Q3`                           |
 | Cloudflare    | Worker `conai-cl26q3`              |
 | Custom domain | `cl26q3.loadingtechnology.app`     |
-| Slide count   | 17                                 |
+| Slide count   | 15                                 |
 | Theme         | Orange `#FF6B35` + White           |
 
 ## Local development
@@ -39,4 +39,4 @@ that conflicts with Cloudflare's asset upload (100324).
 ## Slidev refs
 
 - Slide IDs follow `CL26Q3-<SECTION>-<NNN>`
-- Sections: COV · AGD · WHY · VLM · 28P · ACT · END
+- Sections: COV · AGD · WHY · AI101 · BIG5 · TREND · BRN · END
