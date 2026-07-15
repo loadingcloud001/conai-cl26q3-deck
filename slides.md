@@ -11,8 +11,6 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
-fonts:
-  sans: 'Inter, sans-serif'
 ---
 
 <style>
