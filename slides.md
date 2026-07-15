@@ -1,11 +1,11 @@
 ---
 theme: default
-title: 'Construction AI Landscape 2026Q3'
+title: 'Construction AI Application'
 info: |
-  ## Construction AI Landscape 2026Q3
-  28 AI Paradigms × The Building Site
+  ## Construction AI Application
+  Main AI Introduction
   Ref: CL26Q3 · v1
-  Presented by: loadingcloud001 · 2026-07
+  Presented by: Charles Lo · 2026-07
 class: text-center
 drawings:
   persist: false
@@ -44,9 +44,9 @@ h1 strong, h2 strong { color: var(--accent-orange); }
 
 <div class="cl-footer-ref">CL26Q3-COV-001 · v1</div>
 
-# Construction AI Landscape 2026Q3
+# Construction AI Application
 
-## 28 AI Paradigms × The Building Site
+## Main AI Introduction
 
 <div class="pt-12">
   <span class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10" style="background: #FF6B35; color: white;">
@@ -55,7 +55,7 @@ h1 strong, h2 strong { color: var(--accent-orange); }
 </div>
 
 <div class="text-xs opacity-50 mt-12">
-  loadingcloud001 · 2026-Q3 · Ref CL26Q3
+  Charles Lo · 2026-Q3 · Ref CL26Q3
 </div>
 
 ---
@@ -559,7 +559,7 @@ h1 strong, h2 strong { color: var(--accent-orange); }
       Site: <code>cl26q3.loadingtechnology.app</code>
     </div>
     <div class="mt-8 text-xs opacity-60">
-      loadingcloud001 · Construction AI Landscape 2026Q3
+      Charles Lo · Construction AI Application
     </div>
   </div>
 </div>

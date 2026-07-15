@@ -1,12 +1,12 @@
 # conai-cl26q3-deck
 
 **Ref:** `CL26Q3` · **Version:** v1 · **Built:** 2026-Q3
-**Author:** loadingcloud001
+**Author:** Charles Lo
 **Site:** [cl26q3.loadingtechnology.app](https://cl26q3.loadingtechnology.app)
 
-## Construction AI Landscape 2026Q3
+## Construction AI Application
 
-> 28 AI Paradigms × The Building Site
+> Main AI Introduction
 
 A Slidev presentation deck for colleagues explaining how mainstream AI
 paradigms map to real construction-industry use cases.
