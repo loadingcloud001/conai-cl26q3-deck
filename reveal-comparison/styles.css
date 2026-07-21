@@ -1,0 +1,185 @@
+:root {
+  --slide-white: #ffffff;
+  --slide-warm: #fffaf6;
+  --ink: #20242a;
+  --muted: #69707a;
+  --accent: #ff6b35;
+}
+
+* { box-sizing: border-box; }
+
+html, body { background: #111; }
+
+.reveal {
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.reveal .slides { text-align: left; }
+
+.reveal .slides section.capability-slide {
+  width: 100%;
+  height: 100%;
+  padding: 42px 56px 18px;
+  overflow: hidden;
+  background: linear-gradient(180deg, var(--slide-white) 0%, var(--slide-warm) 100%);
+}
+
+.deck-ref {
+  position: absolute;
+  top: 20px;
+  left: 56px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+.variant-label {
+  position: absolute;
+  top: 16px;
+  right: 56px;
+  padding: 4px 9px;
+  border: 1px solid #d8dce2;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.78);
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.reveal h1 {
+  margin: 0;
+  color: #111820;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  text-transform: none;
+}
+
+.map-frame {
+  position: absolute;
+  inset: 98px 14px 13px;
+}
+
+.capability-map {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.map-edge {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.family-edge { opacity: 0.8; stroke-width: 7; }
+.task-edge { opacity: 0.76; stroke-width: 3; }
+
+.map-node text {
+  dominant-baseline: middle;
+  text-anchor: middle;
+  pointer-events: none;
+  user-select: none;
+}
+
+.task-node rect,
+.family-node rect {
+  paint-order: stroke fill;
+}
+
+.task-node rect {
+  rx: 5;
+  ry: 5;
+}
+
+.task-node text {
+  fill: #26313b;
+  font-size: 11px;
+  font-weight: 520;
+}
+
+.family-node rect {
+  rx: 5;
+  ry: 5;
+  stroke: rgba(255, 255, 255, 0.82);
+  stroke-width: 1.5;
+}
+
+.family-node text {
+  fill: #1e2931;
+  font-size: 11.5px;
+  font-weight: 760;
+}
+
+.root-node circle {
+  fill: #ffc857;
+  stroke: #ffffff;
+  stroke-width: 4;
+  filter: drop-shadow(0 4px 8px rgba(58, 37, 7, 0.12));
+}
+
+.root-node text {
+  fill: #20242a;
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.root-node .root-subtitle {
+  font-size: 10.5px;
+  font-weight: 570;
+}
+
+[data-map-variant="filled"] .task-node rect {
+  stroke: rgba(255, 255, 255, 0.88);
+  stroke-width: 1.5;
+}
+
+[data-map-variant="outlined"] .task-node rect {
+  stroke-width: 2;
+}
+
+[data-map-variant="outlined"] .task-node.is-focus rect {
+  fill: #fff2eb !important;
+  stroke: var(--accent) !important;
+  stroke-width: 4;
+  filter: drop-shadow(0 3px 5px rgba(255, 107, 53, 0.2));
+}
+
+[data-map-variant="outlined"] .task-node.is-focus text {
+  fill: #c74115;
+  font-weight: 800;
+}
+
+.reveal .controls { color: var(--accent); }
+.reveal .slide-number { color: var(--muted); font-size: 10px; }
+
+.present .map-edge {
+  animation: reveal-edge 460ms ease-out both;
+  animation-delay: var(--delay, 0ms);
+}
+
+.present .map-node {
+  animation: reveal-node 360ms ease-out both;
+  animation-delay: calc(var(--delay, 0ms) + 80ms);
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+@keyframes reveal-edge {
+  from { opacity: 0; }
+}
+
+@keyframes reveal-node {
+  from { opacity: 0; transform: scale(0.9); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .present .map-edge,
+  .present .map-node { animation: none; }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "conai-slide5-reveal-comparison",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server ${PORT:-4173} --bind ${HOST:-127.0.0.1}"
+  },
+  "dependencies": {
+    "reveal.js": "^5.2.1"
+  }
+}
