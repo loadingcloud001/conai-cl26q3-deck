@@ -1119,7 +1119,7 @@ Sixth current high-use / fast-growing capability detail slide (Translation). Fol
 </div>
 <div style="font-size:12px;color:#5B6472;text-align:center;max-width:420px;">
 Browser extension that brings high-quality AI translation to any webpage or PDF.<br>
-Supports GPT-4o, Claude, Gemini, DeepSeek, and more.
+Supports GPT-4o, Claude, Gemini, Qwen, and more.
 </div>
 <a href="https://immersivetranslate.com/" target="_blank" rel="noopener" style="margin-top:8px;display:inline-flex;align-items:center;justify-content:center;padding:10px 24px;background:#FF6B35;color:#fff;font-weight:700;border-radius:10px;text-decoration:none;font-size:13px;">
 Install Immersive Translate ↗
@@ -1966,7 +1966,7 @@ Thirteenth current high-use / fast-growing capability detail slide (Reasoning). 
 </a>
 <a href="https://copilot.microsoft.com" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;gap:4px;padding:12px;background:#fff;border:1px solid #eadfd8;border-radius:10px;text-decoration:none;border-bottom:none!important;box-shadow:0 4px 12px rgba(92,68,56,.06);">
 <span style="font-size:14px;font-weight:800;color:#0078D4;">Copilot</span>
-<span style="font-size:10px;color:#5B6472;text-align:center;">Google · Document reasoning · Free</span>
+<span style="font-size:10px;color:#5B6472;text-align:center;">Microsoft · Document reasoning · Free</span>
 <span style="margin-top:4px;font-size:9.5px;font-weight:700;color:#FF6B35;letter-spacing:.5px;">copilot.microsoft.com ↗</span>
 </a>
 </div>
@@ -2275,4 +2275,57 @@ Text-to-Speech demo embedded from the public Hugging Face Space suno/bark (Suno 
 
 <!--
 Slide 6 v3: replaced the clipped embedded Google Form with a projection-safe QR interaction flow. The form URL remains public; the analytics link is presenter-only and may require Google sign-in.
+-->
+
+---
+
+<div class="cl-footer-ref">CL26Q3-BRN-002 · v1</div>
+
+# Q & A · Thank you
+
+<div style="display:flex;flex-direction:column;gap:14px;height:380px;margin-top:18px;">
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;height:280px;">
+
+<div style="display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding:18px;background:linear-gradient(145deg,#FFF8F4 0%,#FFE3D6 100%);border:1px solid #FFD7BE;border-radius:16px;box-shadow:0 10px 24px rgba(92,68,56,.10);">
+<div style="display:flex;align-items:center;gap:8px;">
+<div style="display:flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;background:#FF6B35;color:#fff;font-size:14px;font-weight:800;">?</div>
+<span style="font-size:11px;font-weight:800;color:#FF6B35;letter-spacing:.6px;">OPEN</span>
+</div>
+<h3 style="margin:0;font-size:18px;color:#263247;line-height:1.25;">Audience questions</h3>
+<p style="margin:0;font-size:12px;line-height:1.5;color:#5B6472;">Open floor for any construction-AI question — demo workflow, model choice, deployment, safety, or cost.</p>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding:18px;background:linear-gradient(145deg,#F4F0FF 0%,#E2D6FF 100%);border:1px solid #C4B0F0;border-radius:16px;box-shadow:0 10px 24px rgba(92,68,56,.10);">
+<div style="display:flex;align-items:center;gap:8px;">
+<div style="display:flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;background:#6C5CE7;color:#fff;font-size:13px;font-weight:800;">N</div>
+<span style="font-size:11px;font-weight:800;color:#6C5CE7;letter-spacing:.6px;">NEXT TRAINING</span>
+</div>
+<h3 style="margin:0;font-size:18px;color:#263247;line-height:1.25;">AI Agent · Hermes Agent</h3>
+<p style="margin:0;font-size:12px;line-height:1.5;color:#5B6472;">Deep dive on multi-step planning, tool-calling, and project-specific automations for construction workflows.</p>
+<div style="display:inline-block;margin-top:auto;padding:5px 10px;background:#6C5CE7;color:#fff;border-radius:8px;font-size:11px;font-weight:700;">2026 Q4 · [TBD]</div>
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding:18px;background:linear-gradient(145deg,#F0F8FF 0%,#D6E9FF 100%);border:1px solid #B0D4F0;border-radius:16px;box-shadow:0 10px 24px rgba(92,68,56,.10);">
+<div style="display:flex;align-items:center;gap:8px;">
+<div style="display:flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;background:#0078D4;color:#fff;font-size:12px;font-weight:800;">@</div>
+<span style="font-size:11px;font-weight:800;color:#0078D4;letter-spacing:.6px;">CONTACT</span>
+</div>
+<h3 style="margin:0;font-size:18px;color:#263247;line-height:1.25;">Charles Lo</h3>
+<p style="margin:0;font-size:12px;line-height:1.5;color:#5B6472;">
+GitHub:&nbsp;<strong>loadingcloud001</strong><br>
+Email:&nbsp;<strong>[TBD]</strong><br>
+Phone:&nbsp;<strong>[TBD]</strong>
+</p>
+</div>
+
+</div>
+
+<div style="display:flex;flex-direction:column;align-items:center;gap:6px;padding-top:14px;">
+<p style="margin:0;font-size:18px;font-weight:800;color:#263247;letter-spacing:.4px;">Thank you for your time</p>
+<p style="margin:0;font-size:11px;color:#8A766A;">© CL26Q3 · Construction AI Application · 2026</p>
+</div>
+</div>
+
+<!--
+Closing slide: Q&A open + Next AI Training teaser (AI Agent · Hermes Agent, 2026 Q4) + Contact card with [TBD] placeholders for the user's email/phone. Three cards use the existing deck design tokens (orange, purple, blue gradients). Total deck is now 37 slides — final closing after Brainstorm (Page 36).
 -->
