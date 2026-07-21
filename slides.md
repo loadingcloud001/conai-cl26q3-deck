@@ -1818,15 +1818,15 @@ Twelfth current high-use / fast-growing capability detail slide (Retrieval). Sec
 
 <div style="flex:1;min-height:0;display:flex;flex-direction:column;gap:10px;padding:14px;background:linear-gradient(145deg,#FFF8F4 0%,#FFE3D6 100%);border:1px solid #FFD7BE;border-radius:14px;box-shadow:0 10px 24px rgba(92,68,56,.10);">
 <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;">
-<a href="https://notebooklm.google.com" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;gap:4px;padding:12px;background:#fff;border:1px solid #eadfd8;border-radius:10px;text-decoration:none;border-bottom:none!important;box-shadow:0 4px 12px rgba(92,68,56,.06);">
-<span style="font-size:14px;font-weight:800;color:#7B1FA2;">NotebookLM</span>
-<span style="font-size:10px;color:#5B6472;text-align:center;">Google · Up to 50 sources · Free</span>
-<span style="margin-top:4px;font-size:9.5px;font-weight:700;color:#FF6B35;letter-spacing:.5px;">notebooklm.google.com ↗</span>
+<a href="https://copilot.microsoft.com" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;gap:4px;padding:12px;background:#fff;border:1px solid #eadfd8;border-radius:10px;text-decoration:none;border-bottom:none!important;box-shadow:0 4px 12px rgba(92,68,56,.06);">
+<span style="font-size:14px;font-weight:800;color:#0078D4;">Copilot</span>
+<span style="font-size:10px;color:#5B6472;text-align:center;">Microsoft · File upload · Free</span>
+<span style="margin-top:4px;font-size:9.5px;font-weight:700;color:#FF6B35;letter-spacing:.5px;">copilot.microsoft.com ↗</span>
 </a>
-<a href="https://www.you.com" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;gap:4px;padding:12px;background:#fff;border:1px solid #eadfd8;border-radius:10px;text-decoration:none;border-bottom:none!important;box-shadow:0 4px 12px rgba(92,68,56,.06);">
-<span style="font-size:14px;font-weight:800;color:#6B21A8;">You.com</span>
+<a href="https://huggingface.co/chat" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;gap:4px;padding:12px;background:#fff;border:1px solid #eadfd8;border-radius:10px;text-decoration:none;border-bottom:none!important;box-shadow:0 4px 12px rgba(92,68,56,.06);">
+<span style="font-size:14px;font-weight:800;color:#FF9D00;">HF Chat</span>
 <span style="font-size:10px;color:#5B6472;text-align:center;">Web-grounded · Citations · Free tier</span>
-<span style="margin-top:4px;font-size:9.5px;font-weight:700;color:#FF6B35;letter-spacing:.5px;">you.com ↗</span>
+<span style="margin-top:4px;font-size:9.5px;font-weight:700;color:#FF6B35;letter-spacing:.5px;">huggingface.co/chat ↗</span>
 </a>
 <a href="https://huggingface.co/spaces?search=rag+chat" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;gap:4px;padding:12px;background:#fff;border:1px solid #eadfd8;border-radius:10px;text-decoration:none;border-bottom:none!important;box-shadow:0 4px 12px rgba(92,68,56,.06);">
 <span style="font-size:14px;font-weight:800;color:#FFB800;">HF RAG Spaces</span>
@@ -1851,7 +1851,7 @@ Twelfth current high-use / fast-growing capability detail slide (Retrieval). Sec
 </div>
 
 <!--
-Retrieval demo using a diversified set of tools — Google NotebookLM (upload up to 50 docs, free), You.com (web-grounded, free tier, with citations), and a HF Spaces search URL for exploring public RAG demos. Differs from Pages 15/19/27 to avoid the identical Qwen card pattern.
+Retrieval demo using a diversified set of tools — Microsoft Copilot (upload up to 50 docs, free), HF Chat (RAG, citations, free tier, with citations), and a HF Spaces search URL for exploring public RAG demos. Differs from Pages 15/19/27 to avoid the identical Qwen card pattern.
 -->
 
 ---
@@ -1964,10 +1964,10 @@ Thirteenth current high-use / fast-growing capability detail slide (Reasoning). 
 <span style="font-size:10px;color:#5B6472;text-align:center;">Google · 1M context · Reasoning</span>
 <span style="margin-top:4px;font-size:9.5px;font-weight:700;color:#FF6B35;letter-spacing:.5px;">gemini.google.com ↗</span>
 </a>
-<a href="https://notebooklm.google.com" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;gap:4px;padding:12px;background:#fff;border:1px solid #eadfd8;border-radius:10px;text-decoration:none;border-bottom:none!important;box-shadow:0 4px 12px rgba(92,68,56,.06);">
-<span style="font-size:14px;font-weight:800;color:#7B1FA2;">NotebookLM</span>
+<a href="https://copilot.microsoft.com" target="_blank" rel="noopener" style="display:flex;flex-direction:column;align-items:center;gap:4px;padding:12px;background:#fff;border:1px solid #eadfd8;border-radius:10px;text-decoration:none;border-bottom:none!important;box-shadow:0 4px 12px rgba(92,68,56,.06);">
+<span style="font-size:14px;font-weight:800;color:#0078D4;">Copilot</span>
 <span style="font-size:10px;color:#5B6472;text-align:center;">Google · Document reasoning · Free</span>
-<span style="margin-top:4px;font-size:9.5px;font-weight:700;color:#FF6B35;letter-spacing:.5px;">notebooklm.google.com ↗</span>
+<span style="margin-top:4px;font-size:9.5px;font-weight:700;color:#FF6B35;letter-spacing:.5px;">copilot.microsoft.com ↗</span>
 </a>
 </div>
 <div style="padding:10px 14px;background:#fff;border:1px dashed #FFB48A;border-radius:10px;">
@@ -1987,7 +1987,7 @@ Thirteenth current high-use / fast-growing capability detail slide (Reasoning). 
 </div>
 
 <!--
-Reasoning demo using a diversified set (Kimi + Gemini + NotebookLM — all verified 200, uses Qwen (verified 200)). Ask the AI to show its step-by-step reasoning before giving the conclusion — this is the key behaviour to compare across models.
+Reasoning demo using a diversified set (Kimi + Gemini + HF Chat — all verified 200, uses Qwen (verified 200)). Ask the AI to show its step-by-step reasoning before giving the conclusion — this is the key behaviour to compare across models.
 -->
 
 ---
