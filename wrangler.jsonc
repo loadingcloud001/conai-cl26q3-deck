@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "conai-cl26q3",
+  "name": "conai-cl26q3-deck",
   "compatibility_date": "2026-07-14",
   "observability": {
     "enabled": true
