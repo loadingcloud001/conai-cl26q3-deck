@@ -384,7 +384,7 @@ h1 strong, h2 strong { color: var(--accent-orange); }
 </div>
 
 <div class="mt-8 text-sm opacity-60">
-  15 slides · ~15 minutes · Q&amp;A friendly
+  37 slides · ~25 minutes · Q&amp;A friendly
 </div>
 
 ---
@@ -2233,8 +2233,6 @@ Fifteenth and final current high-use / fast-growing capability detail slide (Tex
 Text-to-Speech demo embedded from the public Hugging Face Space suno/bark (Suno AI's Bark model). If the embed is slow or unavailable, the open-in-new-tab fallback is essential.
 -->
 
----
-{}
 ---
 
 <div class="cl-footer-ref">CL26Q3-BRN-001 · v3</div>
